@@ -10,6 +10,7 @@ class Game {
     private:
         bool isRunning;
         Uint64 msPreviousFrame = 0;
+        double deltaTime = 0;
         SDL_Window* window;
         SDL_Renderer* renderer;
     public:
